@@ -17,7 +17,7 @@
 <section class="secPrincipal">
     <div>
         <?php
-            
+
         ?>
     </div>
 </section>
