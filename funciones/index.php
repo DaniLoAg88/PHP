@@ -8,6 +8,11 @@
     <title>Funciones PHP</title>
 </head>
 <body>
+<header>
+    <?php
+    include "header.php";
+    ?>
+</header>
 <?php
     /**
     * PHP como todos los lenguajes tiene mas de 1000 funciones integradas, pero tú puedes crear tus propias funciones.

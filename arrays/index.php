@@ -11,7 +11,7 @@
 <body>
     <header>
         <?php
-        include "arrays/header.php";
+        include "header.php";
         ?>
     </header>
     <section class="secPrincipal">
