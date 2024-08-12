@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ejercicio 3</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
 <header>
@@ -25,7 +25,7 @@
         //Buscamos posición del segundo de
         $de2 = strrpos($hoy, "de");
 
-        echo "La posición del 1 es $de1 y del último es $de2<br>";
+        echo "La posición del primer de es $de1 y del último es $de2<br>";
 
         $dia = substr($hoy, 0, $de1 - 1);
         $mes = substr($hoy, $de1 + 3, $de2 - ($de1 + 3));
